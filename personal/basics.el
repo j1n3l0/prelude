@@ -22,3 +22,10 @@
 ;; helm
 ;; (require 'helm-config)
 
+;;
+;; sql-postgres
+;; Set the sql-postgres-login-params
+(setq sql-postgres-login-params '((user     :default "n.onyiah")
+                                  (database :default "xtracker_dc2")
+                                  (port     :default 5432)
+                                  server))
