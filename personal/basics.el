@@ -15,4 +15,5 @@
 
 ;;
 ;; helm
-(require 'helm-config)
+;; (require 'helm-config)
+
