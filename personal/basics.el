@@ -5,8 +5,9 @@
 (golden-ratio-mode 1)
 
 ;;
-;; exec-path-from-shell - does not seem to be working
-;; (exec-path-from-shell-initialize)
+;; exec-path-from-shell
+;; *did* not seem to be working due to `emacs --daemon` at startup
+(exec-path-from-shell-initialize)
 
 ;;
 ;; associate file to major modes
